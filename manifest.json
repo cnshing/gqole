@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Glassdoor Quality of Life Extension",
+    "version": "0.01",
+    "default_locale": "en",
+    "description": "A chrome extension improving the Glassdoor browsing experience for productive job searching",
+    "author": "chan.shing@protonmail.com",
+    "short name": "GQole",
+    "content_scripts": [
+        {
+            "matches": ["https://glassdoor.com/Job*"]
+        }
+    ]
+}
